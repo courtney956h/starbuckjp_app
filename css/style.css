@@ -1,0 +1,229 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+a { color: inherit; text-decoration: none; }
+img { vertical-align: middle; }
+ul, ol { list-style-type: none; }
+.blind { position: absolute; 
+    text-indent: -9999999px;
+    width: 0; height: 0; 
+    overflow: hidden; }
+
+
+
+
+/* 헤더구역 고정시키기 */
+#header { height: 100px; }
+#header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; }
+#header .row { max-width: 768px; 
+    margin: 0 auto; 
+    background: #fff; 
+    font-family: 'Roboto'; 
+    padding: 0 20px; }
+#header .hello { padding: 10px 0 5px 0; font-size: 18px; }
+#header .header_nav { display: flex; padding: 10px 0;}
+#header .header_nav .header_noti { width: 98%; font-size: 18px; }
+#header .header_nav .header_noti a { padding-right: 20px; }
+#header .header_nav .header_noti i { padding-right: 10px; color: #00af68; }
+#header .header_nav .header_set { width: 2%; font-size: 18px; }
+
+/* 퀵메뉴 박스 처음부터 fixed */
+#footer { margin-bottom: 66px; }
+#quickMenu { position: fixed;
+    bottom: 0; right: 0; left: 0; 
+    height: 66px; z-index: 999999; 
+    background: #fff; }
+#quickMenu .row { display: flex; max-width: 768px; 
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px; 
+    text-align: center;  }
+#quickMenu .icon i { display: block; 
+    font-size: 25px; }
+#quickMenu .icon span { font-size: 12px; }
+
+
+
+
+
+.reward { background: #1e3932; 
+    padding: 20px;
+    margin-bottom: 10px; }
+.reward span { color: #c7c7c5; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.reward .reward_counter { display: flex; 
+    padding: 10px 0; 
+    position: relative;}
+.reward .reward_counter h2 { color: #fff; 
+    font-size: 35px; 
+    width: 50%; }
+.reward .reward_counter h2 p { color: #00af68; 
+    display: inline-block; 
+    font-size: 17px; }
+.reward .reward_counter > p { color: #00af68; 
+    font-weight: bold;
+    width: 50%;
+    text-align: right;
+    margin-top: 20px; }
+.reward .reward_counter > p:after { position: absolute;
+    content: ''; 
+    top: 95%; left: 5px;
+    width: 30%; height: 8px; 
+    background: #000;
+    border-radius: 5px; 
+    padding-left: 20px; }
+.reward .reward_btn { padding-top: 20px; }
+.reward .reward_btn button { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: transparent; 
+    border: 1px solid #fff; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+
+
+.mobileOrder { background: #2e2926; 
+    padding: 20px; 
+    margin-bottom: 10px; }
+.mobile_container { display: flex; }
+.mobileOrder span { color: #c7c7c5; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.mobileOrder .mobile_content { 
+    padding-top: 10px; 
+    width: 100%; }
+.mobileOrder .mobile_content h2 { color: #fff; 
+    font-size: 25px; }
+
+.mobileOrder .mobile_btn { padding-top:40px; }
+.mobileOrder .mobile_btn button { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #2e2926;
+    background: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+.mobileOrder .moblie_img { width: 50%; }
+.mobileOrder .moblie_img img { width: 150px; }
+
+
+
+.daily { background: url(../images/img_daily.jpg) no-repeat; 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 10px; }
+.daily .daily_container { width: 100%; height: 400px;
+    padding: 80px 20px; }
+.daily span { color: #fff; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.daily h2 { color: #fff; 
+    font-size: 25px; 
+    font-weight: normal; 
+    padding-top: 10px;}
+.daily h3 { color: #fff; 
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 20px; }
+.daily h3 strong { color: #9e104f; }
+.daily .daily_btn { padding-top: 50px; }
+.daily .daily_btn button { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #2e2926;
+    background: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+.notebook { background: url(../images/img_notebook.png) no-repeat; 
+    background-position: center;
+    background-size: cover;
+    width: 100%; }
+.notebook_container { width: 100%; height: 400px;
+    padding: 100px 20px; }
+.notebook span { color: #c7c7c5; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.notebook h2 { color: #fff; 
+    font-size: 25px;
+    padding-top: 10px; }
+.notebook .notebook_btn { padding-top: 30px; }
+.notebook .notebook_btn button { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #2e2926;
+    background: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+
+
+.nearbystore { background: #eee; 
+    padding: 10px 0; }
+.nearby_container { background: #fff; display: flex;}
+.nearby_content { width: 50%;
+    padding: 80px 20px; }
+.nearbystore span { color: #c7c7c5; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.nearbystore h5 { padding-top: 10px; }
+.nearby_map { width: 50%; }
+.nearby_map iframe { width: 100%; height: 300px;}
+.nearbystore .nearbystore_btn { padding-top: 50px;}
+.nearbystore .nearbystore_btn button { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    background: #fff; 
+    border: 1px solid #000; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+.product { background: #eee; padding-bottom: 10px;}
+.product_container { background: #fff; padding: 20px; }
+.product span { color: #c7c7c5; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.product_img { display: flex; }
+.product_img img { height: 33.33%; width: 33.33%; 
+    border-radius: 50%; padding: 20px 10px; }
+.product .product_btn { padding-top: 20px; }
+.product .product_btn button { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    background: #fff; 
+    border: 1px solid #000; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+
+
+
+
+.charge_btn { position: fixed; bottom: 80px; right: 10px; 
+    z-index: 9999999;}
+.charge_btn button { padding: 15px 20px; 
+    font-size: 20px;
+    color: #fff;
+    background: #00af68;
+    border: 1px solid  #00af68;; 
+    border-radius: 50px;
+    cursor: pointer; }
