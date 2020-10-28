@@ -48,10 +48,10 @@ body { font-family: 'Roboto'; }
 #header .header_nav .header_set { width: 2%; font-size: 18px; }
 
 /* 퀵메뉴 박스 처음부터 fixed */
-#footer { margin-bottom: 66px; }
+#footer { margin-bottom: 59px; }
 #quickMenu { position: fixed;
     bottom: 0; right: 0; left: 0; 
-    height: 66px; z-index: 999999; 
+    height: 59px; z-index: 999999; 
     background: #fff;
     color: #999; }
 #quickMenu .row { display: flex; max-width: 768px; 
@@ -85,10 +85,10 @@ body { font-family: 'Roboto'; }
     display: inline-block; 
     font-size: 17px; }
 .reward .reward_counter > p { color: #00af68; 
-    font-weight: bold;
     width: 50%;
     text-align: right;
     margin-top: 20px; }
+.reward .reward_counter > p strong { color: #fff; }
 .reward .reward_counter > p:after { position: absolute;
     content: ''; 
     top: 95%; left: 5px;
@@ -97,7 +97,7 @@ body { font-family: 'Roboto'; }
     border-radius: 5px; 
     padding-left: 20px; }
 .reward .reward_btn { padding-top: 20px; }
-.reward .reward_btn button { padding: 8px 15px; 
+.reward .reward_btn a { padding: 8px 15px; 
     font-size: 13px;
     font-weight: bold;
     color: #fff;
@@ -123,7 +123,7 @@ body { font-family: 'Roboto'; }
     font-size: 25px; }
 
 .mobileOrder .mobile_btn { padding-top:40px; }
-.mobileOrder .mobile_btn button { padding: 8px 15px; 
+.mobileOrder .mobile_btn a { padding: 8px 15px; 
     font-size: 13px;
     font-weight: bold;
     color: #2e2926;
@@ -158,7 +158,7 @@ body { font-family: 'Roboto'; }
     padding-top: 20px; }
 .daily h3 strong { color: #9e104f; }
 .daily .daily_btn { padding-top: 50px; }
-.daily .daily_btn button { padding: 8px 15px; 
+.daily .daily_btn a { padding: 8px 15px; 
     font-size: 13px;
     font-weight: bold;
     color: #2e2926;
@@ -181,7 +181,7 @@ body { font-family: 'Roboto'; }
     font-size: 25px;
     padding-top: 10px; }
 .notebook .notebook_btn { padding-top: 30px; }
-.notebook .notebook_btn button { padding: 8px 15px; 
+.notebook .notebook_btn a { padding: 8px 15px; 
     font-size: 13px;
     font-weight: bold;
     color: #2e2926;
@@ -205,7 +205,7 @@ body { font-family: 'Roboto'; }
 .nearby_map { width: 50%; }
 .nearby_map iframe { width: 100%; height: 300px; }
 .nearbystore .nearbystore_btn { padding-top: 50px;}
-.nearbystore .nearbystore_btn button { padding: 8px 15px; 
+.nearbystore .nearbystore_btn a { padding: 8px 15px; 
     font-size: 13px;
     font-weight: bold;
     color: #000;
@@ -229,7 +229,7 @@ body { font-family: 'Roboto'; }
     padding: 20px 10px; 
     border-radius: 50%; }
 .product .product_btn { padding-top: 20px; }
-.product .product_btn button { padding: 8px 15px; 
+.product .product_btn a { padding: 8px 15px; 
     font-size: 13px;
     font-weight: bold;
     color: #000;
@@ -244,7 +244,7 @@ body { font-family: 'Roboto'; }
 
 .charge_btn { position: fixed; bottom: 80px; right: 10px; 
     z-index: 9999999;}
-.charge_btn button { padding: 15px 20px; 
+.charge_btn a { padding: 15px 20px; 
     font-size: 20px;
     color: #fff;
     background: #00af68;
