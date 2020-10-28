@@ -11,6 +11,23 @@ ul, ol { list-style-type: none; }
     overflow: hidden; }
 body { font-family: 'Roboto'; }
 
+/* 모바일 전용 디자인 */
+#onlyMobile { position: fixed; 
+    width: 100vw; 
+    height: 100vw; 
+    top: 0; left: 0; 
+    background:  #00af68;
+    color: #fff;
+    font-size: 20px; 
+    z-index: 9999999999;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; }
+#onlyMobile img { width: 300px; }
+
+@media screen and (max-width:768px) {
+    #onlyMobile { display: none;}
+}
 
 
 
