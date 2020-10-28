@@ -11,6 +11,8 @@ ul, ol { list-style-type: none; }
     overflow: hidden; }
 body { font-family: 'Roboto'; }
 
+
+
 /* 모바일 전용 디자인 */
 #onlyMobile { position: fixed; 
     width: 100vw; 
@@ -32,7 +34,8 @@ body { font-family: 'Roboto'; }
 
 
 /* 헤더구역 고정시키기 */
-#header { height: 100px; }
+#header { height: 95px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
 #header.on { position: fixed; 
     top: 0; left: 0; right: 0; 
     z-index: 999999; }
@@ -40,7 +43,7 @@ body { font-family: 'Roboto'; }
     margin: 0 auto; 
     background: #fff;
     padding: 0 20px; }
-#header .hello { padding: 10px 0 5px 0; font-size: 15px; }
+#header .hello { padding: 10px 0 5px 0; }
 #header .header_nav { display: flex; padding: 10px 0; }
 #header .header_nav .header_noti { width: 98%; font-size: 13px; }
 #header .header_nav .header_noti a { padding-right: 20px; }
@@ -67,7 +70,7 @@ body { font-family: 'Roboto'; }
 
 
 
-
+/* reward */
 .reward { background: #1e3932; 
     padding: 20px;
     margin-bottom: 10px; }
@@ -108,6 +111,7 @@ body { font-family: 'Roboto'; }
 
 
 
+/* mobileOrder */
 .mobileOrder { background: #2e2926; 
     padding: 20px; 
     margin-bottom: 10px; }
@@ -137,6 +141,7 @@ body { font-family: 'Roboto'; }
 
 
 
+/* daily */
 .daily { background: url(../images/img_daily.jpg) no-repeat; 
     background-position: center;
     background-size: cover;
@@ -167,6 +172,9 @@ body { font-family: 'Roboto'; }
     border-radius: 50px;
     cursor: pointer; }
 
+
+
+/* notebook */
 .notebook { background: url(../images/img_notebook.png) no-repeat; 
     background-position: center;
     background-size: cover;
@@ -192,6 +200,7 @@ body { font-family: 'Roboto'; }
 
 
 
+/* nearbystore */
 .nearbystore { background: #eee; 
     padding: 10px 0; }
 .nearby_container { background: #fff; display: flex;}
@@ -214,6 +223,9 @@ body { font-family: 'Roboto'; }
     border-radius: 50px;
     cursor: pointer; }
 
+
+
+/* product */    
 .product { background: #eee; padding-bottom: 10px;}
 .product_container { background: #fff; padding: 20px; }
 .product span { color: #c7c7c5; 
@@ -241,7 +253,7 @@ body { font-family: 'Roboto'; }
 
 
 
-
+/* charge */
 .charge_btn { position: fixed; bottom: 80px; right: 10px; 
     z-index: 9999999;}
 .charge_btn a { padding: 15px 20px; 
@@ -251,3 +263,42 @@ body { font-family: 'Roboto'; }
     border: 1px solid  #00af68;; 
     border-radius: 50px;
     cursor: pointer; }
+
+
+
+
+
+
+
+
+/* 세부 페이지 reward.html */
+#reward_header { height: 91px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
+#reward_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#reward_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    background: #1e3932; 
+    color: #fff;
+    padding: 0 20px; }
+#reward_header i { padding-top: 20px;
+    padding-left: 2px;
+    font-size: 20px; }
+#reward_header h1 { padding: 10px 0;
+    font-size: 25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
