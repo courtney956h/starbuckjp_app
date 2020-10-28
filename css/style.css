@@ -91,12 +91,12 @@ body { font-family: 'Roboto'; }
 .reward .reward_counter > p strong { color: #fff; }
 .reward .reward_counter > p:after { position: absolute;
     content: ''; 
-    top: 95%; left: 5px;
+    top: 90%; left: 5px;
     width: 30%; height: 8px; 
     background: #000;
     border-radius: 5px; 
     padding-left: 20px; }
-.reward .reward_btn { padding-top: 20px; }
+.reward .reward_btn { padding: 20px 0 10px; }
 .reward .reward_btn a { padding: 8px 15px; 
     font-size: 13px;
     font-weight: bold;
