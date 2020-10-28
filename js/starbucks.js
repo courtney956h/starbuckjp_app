@@ -9,6 +9,22 @@
     })
 
 
+    
+    // 세부페이지 연결
+    // $('body').on('click', '', function(e) {
+    //     e.preventDefault();
+    //     var url = this.href;
+    //     $("#container > #content").remove();
+    //     $("#container").load(url + " #content")
+    // })
+
+
+
+
+
+
+
+
     // 헤더박스 스크롤 이벤트시 fixed
     $(window).scroll(function() {
         var sct = $(this).scrollTop()
