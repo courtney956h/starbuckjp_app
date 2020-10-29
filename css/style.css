@@ -337,7 +337,8 @@ body { font-family: 'Roboto'; }
 .reward_more { text-align: center;
     padding: 50px 0;
     color: #fff; }
-.reward_more > img { padding-top: 20px; }
+.reward_more > img { padding-top: 20px;
+    width: 40%; }
 .reward_more h3 { padding: 40px 0; }
 
 .reward_more p { font-size: 14px;}
