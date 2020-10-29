@@ -360,3 +360,82 @@ body { font-family: 'Roboto'; }
     border: 1px solid #fff; 
     border-radius: 50px;
     cursor: pointer; }
+
+
+
+
+    
+
+
+
+/* 세부 페이지 mobileOrder.html */
+#mobileOrder_header { height: 130px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
+
+#mobileOrder_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#mobileOrder_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    padding: 0 20px; }
+#mobileOrder_header .pay_btn { padding-top: 20px;
+    text-align: right;
+    font-size: 18px; 
+    color: #00af68; }
+#mobileOrder_header h1 { padding: 10px 0;
+    font-size: 25px; }
+#mobileOrder_header .mobileOrder_nav a { display: inline-block; 
+    font-size: 15px; 
+    margin-right: 20px; }
+#mobileOrder_header .mobileOrder_nav a.on { border-bottom: 2px solid #00af68;}
+
+
+
+.mobileOrder_detail { background: #eee; }
+.mobileOrder_list1 { margin-bottom: 10px; }
+.mobileOrder_list1 , .mobileOrder_list2 a { padding: 20px;
+    background: #fff; 
+    border-bottom: 1px solid #ddd; }
+.mobileOrder_list2 a { display: block;
+    position: relative; }
+.mobileOrder_list .depth1 i { color: #666;}
+.mobileOrder_list .depth1 i:nth-child(1) { padding-right: 10px; }
+.mobileOrder_list .depth1 i:nth-child(2) { position: absolute;
+    right: 20px; }
+
+.mobileOrder_total { text-align: right; 
+    padding: 30px 20px; 
+    font-size: 15px; }
+.mobileOrder_total p { padding-bottom: 7px;
+    color: #666;  }   
+.mobileOrder_total span { color: #000; 
+    font-size: 20px;
+    font-weight: bold; 
+    padding-bottom: 7px; }
+.mobileOrder_total .deposit_btn { padding: 20px 0; }
+.mobileOrder_total .deposit_btn a {
+    padding: 7px 15px; 
+    font-size: 13px;
+    color: #00af68;
+    background: transparent; 
+    border: 1px solid #00af68; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+
+.mobileOrder_payment { text-align: center;
+    padding: 30px 0; }
+.mobileOrder_payment > a:nth-child(1) { color: #666; 
+    text-decoration: underline;
+    font-size: 13px; }
+.mobileOrder_payment .nickname { color: #00af68; 
+    padding-right: 20px;
+    text-align: right;
+    font-size: 15px; }
+.mobileOrder_payment .payment_btn { padding: 40px 0; }
+.mobileOrder_payment .payment_btn a { padding: 15px 100px; 
+    font-size: 15px;
+    color: #fff;
+    background: #999; 
+    border-radius: 50px;
+    cursor: pointer; }
