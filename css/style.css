@@ -273,7 +273,7 @@ body { font-family: 'Roboto'; }
 
 /* 세부 페이지 reward.html */
 #reward_header { height: 91px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8); }
 #reward_header.on { position: fixed; 
     top: 0; left: 0; right: 0; 
     z-index: 999999; } 
@@ -282,23 +282,80 @@ body { font-family: 'Roboto'; }
     background: #1e3932; 
     color: #fff;
     padding: 0 20px; }
-#reward_header i { padding-top: 20px;
+#reward_header .close_btn { padding-top: 20px;
     padding-left: 2px;
     font-size: 20px; }
 #reward_header h1 { padding: 10px 0;
     font-size: 25px;}
+#reward_header h1 p { display: inline-block; 
+    font-size: 10px; }
+    
+.reward_detail { background: #1e3932; }
+.reward_counter_detail { padding: 20px; }
+.reward_counter_detail h2 { color: #fff; 
+    font-size: 35px; }
+.reward_counter_detail h2 p { color: #00af68; 
+    display: inline-block; 
+    font-size: 17px; }
+.reward_counter_detail > p { color: #fff;
+    margin-top: 10px; }
+.reward_counter_detail > p:after { position: absolute;
+    content: ''; 
+    top: 200px; left: 20px;
+    width: 80%; height: 20px; 
+    border: 2px solid #00af68;
+    background: #000;
+    border-radius: 20px; 
+    padding-left: 20px; }
+
+.reward_counter_detail .reward_btn { padding: 70px 0 10px; }
+.reward_counter_detail .reward_btn a { padding: 7px 15px; 
+    font-size: 13px;
+    color: #fff;
+    background: transparent; 
+    border: 1px solid #fff; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+.member_status { padding: 20px; }
+.member_status span { color: #c7c7c5; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.member_status h2 { color: #fff; 
+    font-size: 25px; 
+    font-weight: normal; 
+    padding-top: 10px; }
+.member_status h5 { color: #fff;
+    font-size: 15px; 
+    padding: 10px 0; 
+    font-weight: normal; }
+.member_status h6 { color: #c7c7c5;
+    font-size: 10px; 
+    font-weight: normal;}
+
+.reward_more { text-align: center;
+    padding: 50px 0;
+    color: #fff; }
+.reward_more > img { padding-top: 20px; }
+.reward_more h3 { padding: 40px 0; }
+
+.reward_more p { font-size: 14px;}
+
+.reward_img { display: flex; 
+    padding: 50px; }
+.reward_img > div { width: 33.33%; }
+.reward_img > div img { width: 70%; }
+.reward_img > div p { padding-top: 10px;
+    font-size: 10px; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.reward_more_btn { padding: 10px 0 80px; }
+.reward_more_btn a { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: transparent; 
+    border: 1px solid #fff; 
+    border-radius: 50px;
+    cursor: pointer; }
