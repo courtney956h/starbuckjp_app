@@ -14,7 +14,9 @@
         <header id="header">
             <div class="row">
                 <div class="hello">
-                    <h1>Good afternoon</h1>
+                    <h1>
+                        <!-- welcome문 -->Good Afternoon!
+                    </h1>
                 </div>
                 <div class="header_nav">
                     <div class="header_noti">
@@ -67,7 +69,7 @@
                             Offering</h2>
                         <h3>DAIGAKU <strong>IMO</strong></h3>
                         <div class="daily_btn">
-                            <a href="#">See more</a>
+                            <a href="https://www.starbucks.co.jp/cafe/daigakuimo/?nid=wh_08_pc">See more</a>
                         </div>
                    </div>
                 </div>
@@ -78,7 +80,7 @@
                         <h2>Moleskine Diary<br>
                             Present</h2>
                         <div class="notebook_btn">
-                            <a href="#">See more</a>
+                            <a href="https://www.starbucks.co.jp/youkou/rewards_notebook/?nid=wh_07_sp">See more</a>
                         </div>
                     </div>
                 </div>
@@ -162,5 +164,19 @@
     </div>
 
     <script src="js/starbucks.js"></script>
+    <!-- <script>
+    // welcome문
+    var today = new Date();
+    var hourNow = today.getHours();
+    var greeting;
+    if ( hourNow > 18 ) {
+        greeting = 'Good Evening!'
+    } else if ( hourNow > 12 ) {
+        greeting = 'Good Afternoon!'
+    } else if ( hourNow > 0 ) {
+        greeting = 'Good Morning!'
+    }
+    document.write('<div class="hello"><h1>'+ greeting + '</h1></div>')
+    </script> -->
 </body>
 </html>
