@@ -272,8 +272,8 @@ body { font-family: 'Roboto'; }
 
 
 /* 세부 페이지 reward.html */
-#reward_header { height: 91px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8); }
+#reward_header { height: 94px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
 #reward_header.on { position: fixed; 
     top: 0; left: 0; right: 0; 
     z-index: 999999; } 
