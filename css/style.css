@@ -43,7 +43,7 @@ body { font-family: 'Roboto'; }
     margin: 0 auto; 
     background: #fff;
     padding: 0 20px; }
-#header .hello { padding: 10px 0 5px 0; }
+#header .hello { padding: 10px 0 5px 0; font-size: 20px; }
 #header .header_nav { display: flex; padding: 10px 0; }
 #header .header_nav .header_noti { width: 98%; font-size: 13px; }
 #header .header_nav .header_noti a { padding-right: 20px; }
@@ -62,10 +62,12 @@ body { font-family: 'Roboto'; }
     justify-content: space-between;
     padding: 10px; 
     text-align: center;  }
+#quickMenu .icon { padding: 0 10px;}
 #quickMenu .icon i { display: block; 
     font-size: 20px; }
 #quickMenu .icon span { font-size: 12px; }
-#quickMenu .icon:hover { color: #00af68; }
+#quickMenu .icon:hover, 
+#quickMenu .icon.current { color: #00af68; }
 
 
 
@@ -369,12 +371,13 @@ body { font-family: 'Roboto'; }
 
 
 /* 세부 페이지 mobileOrder.html */
-#mobileOrder_header { height: 130px;
+#mobileOrder_header { height: 123px;
+    background: #fff; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
 
 #mobileOrder_header.on { position: fixed; 
     top: 0; left: 0; right: 0; 
-    z-index: 999999; } 
+    z-index: 999999;} 
 #mobileOrder_header .row { max-width: 768px; 
     margin: 0 auto; 
     padding: 0 20px; }
@@ -386,8 +389,9 @@ body { font-family: 'Roboto'; }
     font-size: 25px; }
 #mobileOrder_header .mobileOrder_nav a { display: inline-block; 
     font-size: 15px; 
-    margin-right: 20px; }
-#mobileOrder_header .mobileOrder_nav a.on { border-bottom: 2px solid #00af68;}
+    padding: 0 10px 10px 10px; }
+#mobileOrder_header .mobileOrder_nav a.current { 
+    border-bottom: 2px solid #00af68; }
 
 
 
@@ -439,3 +443,65 @@ body { font-family: 'Roboto'; }
     background: #999; 
     border-radius: 50px;
     cursor: pointer; }
+
+    
+
+
+
+    
+
+/* 세부 페이지 storeSelect.html */
+#storeSelect_header { height: 123px;
+    background: #fff; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
+#storeSelect_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#storeSelect_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    padding: 0 20px; }
+#storeSelect_header .prev_btn { padding-top: 18px;
+    padding-left: 2px;
+    font-size: 20px; }
+#storeSelect_header h1 { padding: 10px 0;
+    font-size: 25px; }
+#storeSelect_header .storeSelect_nav a { display: inline-block; 
+    font-size: 15px; 
+    padding: 0 10px 10px 10px; }
+#storeSelect_header .storeSelect_nav a.current { 
+    border-bottom: 2px solid #00af68; }
+
+.storeContent iframe { width:100%; height:500px; margin:0px auto 30px; display:block }
+
+
+
+
+
+
+/* 퀵메뉴 map.html */
+#content { position: relative;}
+#map_header { height: 90px;
+    padding: 52px 0 10px;
+    background: #fff; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
+#map_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+    display: flex; }
+#map_header h1 { width: 100%; }
+#map_header a { text-align: right;
+    font-size: 22px;
+    color: #666; }
+
+.mapSearch { position: fixed;
+    bottom: 60px; right: 10px; }
+.mapSearch a { color: #666;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 50px;
+    display: block;
+    padding: 9px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
