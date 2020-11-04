@@ -112,6 +112,42 @@ body { font-family: 'Roboto'; }
     cursor: pointer; }
 
 
+/* rewards_bf */
+.rewards_bf { background: #1e3932; 
+    padding: 20px;
+    margin-bottom: 10px; }
+.rewards_bf span { color: #c7c7c5; 
+    font-weight: bold; 
+    font-size: 12px; 
+    letter-spacing: 2px; }
+.rewards_bf_container { display: flex; }
+.rewards_bf_content { width: 100%; 
+    z-index: 999;}
+.rewards_bf h2 { color: #fff; 
+    font-size: 18px;  
+    padding: 20px 0; 
+    letter-spacing: 2px;
+    font-weight: normal; }
+.rewards_bf h5 { color: #fff; 
+    font-weight: normal; }
+.rewards_bf p { color: #fff;
+    font-size: 10px; 
+    padding: 10px 0; }
+.rewards_bf .rewards_bf_btn { padding: 20px 0 10px; }
+.rewards_bf .rewards_bf_btn a { padding: 8px 15px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: #1e3932;
+    background: #fff;
+    border: 1px solid #fff; 
+    border-radius: 50px;
+    cursor: pointer; }
+.rewards_bf_img { width: 50%; 
+    position: relative;}
+.rewards_bf_img img { width: 150px; 
+    position: absolute;
+    top: 30px; right: 0; }
+
 
 /* mobileOrder */
 .mobileOrder { background: #2e2926; 
@@ -255,18 +291,42 @@ body { font-family: 'Roboto'; }
 
 
 
-/* charge */
-.charge_btn { position: fixed; bottom: 80px; right: 10px; 
-    z-index: 9999999;}
-.charge_btn a { padding: 15px 20px; 
-    font-size: 20px;
+/* chargePage_btn */
+/* .chargePage_btn { position: fixed; 
+    bottom: 80px; right: 10px; 
+    z-index: 9999999; }
+.chargePage_btn a { padding: 15px 10px; 
+    font-size: 18px;
     color: #fff;
     background: #00af68;
-    border: 1px solid  #00af68;; 
     border-radius: 50px;
-    cursor: pointer; }
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); } */
+
+/* joinPage_btn */
+.joinPage_btn { position: fixed; 
+    bottom: 80px; right: 10px; 
+    z-index: 9999999; }
+.joinPage_btn a { padding: 15px 10px; 
+    font-size: 18px;
+    color: #fff;
+    background: #00af68;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
 
 
+/* loginPage_btn */
+.loginPage_btn { position: fixed; 
+    bottom: 140px; right: 10px; 
+    z-index: 9999999; }
+.loginPage_btn a { padding: 10px 20px; 
+    font-size: 18px;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
 
 
 
@@ -274,14 +334,15 @@ body { font-family: 'Roboto'; }
 
 
 /* 세부 페이지 reward.html */
+/* .reward_container { background: #1e3932; }
 #reward_header { height: 94px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    background: #1e3932;}
 #reward_header.on { position: fixed; 
     top: 0; left: 0; right: 0; 
     z-index: 999999; } 
 #reward_header .row { max-width: 768px; 
     margin: 0 auto; 
-    background: #1e3932; 
     color: #fff;
     padding: 0 20px; }
 #reward_header .close_btn { padding-top: 20px;
@@ -291,8 +352,7 @@ body { font-family: 'Roboto'; }
     font-size: 25px;}
 #reward_header h1 p { display: inline-block; 
     font-size: 10px; }
-    
-.reward_detail { background: #1e3932; }
+ 
 .reward_counter_detail { padding: 20px; }
 .reward_counter_detail h2 { color: #fff; 
     font-size: 35px; }
@@ -361,12 +421,121 @@ body { font-family: 'Roboto'; }
     background: transparent; 
     border: 1px solid #fff; 
     border-radius: 50px;
-    cursor: pointer; }
+    cursor: pointer; } */
 
 
 
 
+
+/* 세부 페이지 rewardsbf.html */
+.rewardsbf_container { background: #fff;
+    height: 820px; }
+#rewardsbf_header { height: 94px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    background: #1e3932; }
+#rewardsbf_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#rewardsbf_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    color: #fff;
+    padding: 0 20px; }
+#rewardsbf_header .close_btn { padding-top: 20px;
+    padding-left: 2px;
+    font-size: 20px; }
+#rewardsbf_header h1 { text-align: center;}
+#rewardsbf_header h1 img { padding: 8px 0;
+    width: 120px; }
+ 
+
+
+.rewards_p1 { text-align: center;
+    background: #1e3932; 
+    padding: 50px 0 210px; }
+.rewards_p1 h2 { padding-bottom: 30px;
+    color: #fff; }
+.rewardsbf_list { padding: 10px 10px; }
+.rewardsbf_list li { width: 25%;
+    background: #eee; 
+    display: inline-block;
+    margin: 10px; }
+.rewardsbf_list li img { width: 90%;
+    padding-top: 10px; }
+.rewardsbf_list li p { 
+    font-size: 11px;
+    letter-spacing: 1px; 
+    font-weight: bold;
+    padding: 10px 0;}
     
+.rewards_p2 { color: #fff; 
+    text-align: center; 
+    background: #1e3932; 
+    padding: 50px 0 177px; }
+.rewards_p2 h2 { padding-bottom: 30px; }
+.rewards_p2 span { font-size: 15px; }
+.rewardsbf2_content { display: flex;
+    padding: 0 40px; }
+.rewardsbf2_sp { padding: 20px 0;
+    width: 50%;
+    display: flex; }
+.rewardsbf2_sp img { width: 30%;}
+.rewardsbf2_sp p { width: 100%; 
+    padding: 40px 0 0 10px;
+    font-size: 12px;
+    text-align: left;
+    color: #fff; }
+.rewardsbf2_bg {background-image: url(../images/rewards_bg1.jpg);
+    height: 200px; width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px; }
+    
+.rewards_p3 { color: #fff; 
+    text-align: center; 
+    background: #00af68; 
+    padding-bottom: 151px; }
+.rewards_p3 h2 { padding: 50px 0 30px; }
+.rewards_p3 span { font-size: 15px; }
+.rewards_p3 img { display: block; 
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 50%;}
+
+.rewards_p4 { color: #fff; 
+    text-align: center; 
+    background: #d2a04a;
+    padding-bottom: 162px; }
+.rewards_p4 h2 { padding: 50px 0 30px; }
+.rewards_p4 span { font-size: 15px;
+    display: block;
+    padding-bottom: 50px; }
+.rewards_p4 img { margin: 0 auto;
+    width: 50%;}
+.rewards_p4 p { padding: 40px; 
+    font-size: 15px;}
+
+
+
+.rewardsOuter { position: relative;
+    overflow: hidden;  }
+.rewardsOuter .slick-dots { position: absolute; 
+    bottom: 100px; width: 100%;
+    text-align: center; }
+.rewardsOuter .slick-dots li { display: inline-block; }
+.rewardsOuter .slick-dots li button {
+    background: #000;
+    border: none;
+    height: 10px; width: 10px;
+    border-radius: 50%; 
+    text-indent: -99999px; 
+    overflow: hidden; 
+    margin: 0 5px;}
+.rewardsOuter .slick-dots li.slick-active button { background: #fff; }
+
+
+
+
 
 
 
@@ -377,7 +546,7 @@ body { font-family: 'Roboto'; }
 
 #mobileOrder_header.on { position: fixed; 
     top: 0; left: 0; right: 0; 
-    z-index: 999999;} 
+    z-index: 999999; } 
 #mobileOrder_header .row { max-width: 768px; 
     margin: 0 auto; 
     padding: 0 20px; }
@@ -506,3 +675,221 @@ body { font-family: 'Roboto'; }
     margin-bottom: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
 .mapContent iframe { width:100%; height:500px; margin:0px auto 30px; display:block }
+
+
+
+
+
+/* login.html */
+#login_header { height: 94px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
+#login_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#login_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    background: #fff; 
+    color: #000;
+    padding: 0 20px; }
+#login_header .close_btn { padding-top: 20px;
+    padding-left: 2px;
+    font-size: 20px; }
+#login_header h1 { padding: 10px 0;
+    font-size: 25px;}
+#login_header h1 p { display: inline-block; 
+    font-size: 10px; }
+
+
+.loginContent { background: #fcfcfc; }
+fieldset { border: none; padding: 20px; }
+legend { display: none }
+
+#login_box p { margin: 15px; 
+    position: relative;}
+#login_box label { display: inline-block; 
+    width: 100px; 
+    height: 30px;
+    vertical-align: middle; 
+    line-height: 30px; 
+    color: #666; 
+    font-size: 14px;}
+#login_box input { display: block; 
+    border: none;
+    border-bottom: 1.5px solid #ddd;
+    background: #fcfcfc;
+    width: 100%; 
+    height: 30px; 
+    line-height: 30px; }
+#login_box p i { position: absolute;
+    top: 35px; right: 10px; 
+    color: #666; }
+#login_box input:hover { border-bottom: 1.5px solid #00af68;
+    transition: all 0.5s; }
+
+.login_more { padding: 20px; }
+.login_more a { color: #666;
+    text-decoration: underline;
+    font-size: 13px; }
+.login_more p { color: #333;
+    font-size: 13px;
+    padding-top: 20px;}
+
+
+
+/* login_btn */
+.login_btn { position: fixed; 
+    bottom: 80px; right: 10px; 
+    z-index: 9999999; }
+.login_btn a { padding: 15px 20px; 
+    font-size: 18px;
+    color: #fff;
+    background: #999; 
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
+
+
+
+/* joinPage1.html, joinPage2.html */
+.joinPageContent { background: #fcfcfc; }
+#join_header { height: 94px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    background: #fff; 
+    position: relative; }
+#join_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#join_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    color: #000;
+    padding: 0 20px; }
+#join_header .prev_btn { padding-top: 20px;
+    padding-left: 2px;
+    font-size: 20px; }
+#join_header h1 { padding: 10px 0;
+    font-size: 25px;
+    display: inline-block; }
+#join_header h1 p { display: inline-block; 
+    font-size: 10px; }
+#join_header span { float: right;
+    display: block;
+    font-size: 15px; 
+    position: absolute;
+    bottom: 15px; right: 20px; }
+
+#join_box h3 { font-size: 18px; 
+    padding: 10px 0; }
+#join_box span { font-size: 13px;
+    color: #666; 
+    display: block;
+    padding-bottom: 20px; }
+#join_box p { margin: 15px; 
+    position: relative; }
+
+#join_box label { display: inline-block; 
+    width: 100px; 
+    height: 30px;
+    vertical-align: middle; 
+    line-height: 30px; 
+    color: #666; 
+    font-size: 14px; }
+#join_box input { display: block; 
+    border: none;
+    border-bottom: 1.5px solid #ddd;
+    background: #fcfcfc;
+    width: 100%; 
+    height: 30px; 
+    line-height: 30px; }
+#join_box input:hover { border-bottom: 1.5px solid #00af68;
+    transition: all 0.5s; }
+
+.join_more { text-align: center;
+    padding: 20px 0; }
+.join_more a { color: #d7ad79; 
+    text-decoration: underline;
+    font-size: 13px; }
+.join_more p { font-size: 13px;
+    padding: 10px 0; }
+.join_more input { margin-right: 5px; }
+
+/* join_btn */
+.join_btn { padding: 40px 0; 
+    text-align: center; }
+.join_btn a { padding: 15px 100px; 
+    font-size: 15px;
+    color: #fff;
+    background: #999; 
+    border-radius: 50px;
+    cursor: pointer; }
+.join_btn:hover a { background: #00af68;
+    transition: all 0.5s; }
+
+
+/* welcome.html */
+.welcomeContent { background: #1e3932; }
+#welcome_header { height: 94px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    background: #1e3932; 
+    position: relative; }
+#welcome_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#welcome_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    color: #000;
+    padding: 0 20px; }
+#welcome_header .prev_btn { padding-top: 20px;
+    padding-left: 2px;
+    color: #fff;
+    font-size: 20px; }
+#welcome_header h1 { padding: 10px 0;
+    font-size: 25px;
+    color: #fff;
+    display: inline-block; }
+#welcome_header h1 p { display: inline-block; 
+    font-size: 10px; }
+#welcome_header span { float: right;
+    color: #fff;
+    display: block;
+    font-size: 15px; 
+    position: absolute;
+    bottom: 15px; right: 20px; }
+
+#welcome_box { padding: 30px 20px 20px; 
+    text-align: center; }
+#welcome_box h2 img { width: 50%;
+    padding: 20px 0; }
+#welcome_box span { font-size: 13px;
+    color: #fff;
+    display: block;
+    padding-bottom: 15px; }
+#welcome_box span:nth-of-type(1) { text-align: center; }
+
+#welcome_box h4 { font-size: 18px; 
+    padding: 20px 0 8px; 
+    color: #00af68; }
+#welcome_box > a { text-decoration: underline;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 10px 0; } 
+
+
+#welcome_box h3 { font-size: 20px; 
+    padding: 40px 0 10px; 
+    color: #fff; }
+#welcome_box span a { color: #d7ad79; 
+    text-decoration: underline; }
+
+.welcome_btn { padding: 20px 0 60px; 
+    text-align: center; }
+.welcome_btn a { padding: 10px 40px; 
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent; 
+    border-radius: 50px;
+    cursor: pointer; }
+.welcome_btn:hover a { background: #fff;
+    color: #1e3932;
+    transition: all 0.5s; }
