@@ -804,12 +804,12 @@ legend { display: none }
     transition: all 0.5s; }
 
 .join_more { text-align: center;
-    padding: 20px 0; }
+    padding-top: 20px; }
 .join_more a { color: #d7ad79; 
     text-decoration: underline;
     font-size: 13px; }
 .join_more p { font-size: 13px;
-    padding: 10px 0; }
+    padding: 10px; }
 .join_more input { margin-right: 5px; }
 
 /* join_btn */
