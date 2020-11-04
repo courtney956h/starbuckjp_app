@@ -428,8 +428,7 @@ body { font-family: 'Roboto'; }
 
 
 /* 세부 페이지 rewardsbf.html */
-.rewardsbf_container { background: #fff;
-    height: 820px; }
+.rewardsbf_container { background: #fff; }
 #rewardsbf_header { height: 94px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
     background: #1e3932; }
@@ -458,7 +457,7 @@ body { font-family: 'Roboto'; }
 .rewardsbf_list li { width: 25%;
     background: #eee; 
     display: inline-block;
-    margin: 10px; }
+    margin: 5px; }
 .rewardsbf_list li img { width: 90%;
     padding-top: 10px; }
 .rewardsbf_list li p { 
@@ -470,17 +469,17 @@ body { font-family: 'Roboto'; }
 .rewards_p2 { color: #fff; 
     text-align: center; 
     background: #1e3932; 
-    padding: 50px 0 177px; }
+    padding: 50px 0 150px; }
 .rewards_p2 h2 { padding-bottom: 30px; }
 .rewards_p2 span { font-size: 15px; }
 .rewardsbf2_content { display: flex;
-    padding: 0 40px; }
+    padding: 0 20px; }
 .rewardsbf2_sp { padding: 20px 0;
     width: 50%;
     display: flex; }
-.rewardsbf2_sp img { width: 30%;}
+.rewardsbf2_sp img { width: 40% } 
 .rewardsbf2_sp p { width: 100%; 
-    padding: 40px 0 0 10px;
+    padding: 35px 0 0 10px;
     font-size: 12px;
     text-align: left;
     color: #fff; }
@@ -494,7 +493,7 @@ body { font-family: 'Roboto'; }
 .rewards_p3 { color: #fff; 
     text-align: center; 
     background: #00af68; 
-    padding-bottom: 151px; }
+    padding-bottom: 130px; }
 .rewards_p3 h2 { padding: 50px 0 30px; }
 .rewards_p3 span { font-size: 15px; }
 .rewards_p3 img { display: block; 
@@ -505,7 +504,7 @@ body { font-family: 'Roboto'; }
 .rewards_p4 { color: #fff; 
     text-align: center; 
     background: #d2a04a;
-    padding-bottom: 162px; }
+    padding-bottom: 160px; }
 .rewards_p4 h2 { padding: 50px 0 30px; }
 .rewards_p4 span { font-size: 15px;
     display: block;
