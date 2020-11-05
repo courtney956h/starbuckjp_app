@@ -428,7 +428,8 @@ body { font-family: 'Roboto'; }
 
 
 /* 세부 페이지 rewardsbf.html */
-.rewardsbf_container { background: #fff; }
+.rewardsbf_container { background: #fff;
+    height: 650px; }
 #rewardsbf_header { height: 94px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
     background: #1e3932; }
@@ -892,3 +893,73 @@ legend { display: none }
 .welcome_btn:hover a { background: #fff;
     color: #1e3932;
     transition: all 0.5s; }
+
+
+
+
+/* pay.html */
+.payContent { background: #fff; }
+#pay_header { height: 94px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    background: #fff; 
+    position: relative; }
+#pay_header.on { position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 999999; } 
+#pay_header .row { max-width: 768px; 
+    margin: 0 auto; 
+    color: #000;
+    padding: 0 20px; }
+#pay_header .payAdd_btn { padding-top: 20px;
+    text-align: right;
+    font-size: 18px; 
+    color: #00af68; }
+#pay_header h1 { padding: 10px 0;
+    font-size: 25px;
+    color: #000;
+    display: inline-block; }
+
+
+
+
+.best_card { padding: 20px; }
+.best_card h3 { display: inline-block; 
+    font-size: 25px; }
+.best_card p { display: block; 
+    text-align: right; 
+    font-size: 12px; 
+    float: right; 
+    padding-bottom: 5px;}
+.best_card p a { display: block; 
+    color: #00af68; 
+    font-size: 15px; }
+.best_card a img {
+    width: 100%; }
+
+
+
+.card_btn { padding: 20px 0 60px; 
+    text-align: center; }
+.card_btn a { padding: 6px 16px; 
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #00af68;
+    border: 1px solid #00af68;
+    background: transparent; 
+    border-radius: 50px;
+    cursor: pointer; }
+
+.other_card { padding: 20px 10px 300px; }
+.other_card h5 { color: #666;
+    padding: 10px;}
+.card_list li { display: block; 
+    width: 50%; 
+    padding: 5px; 
+    float: left; }
+.card_list li p { text-align: right;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: #00af68;
+    font-size: 15px; }
+.card_list a > img { width: 100%; }
