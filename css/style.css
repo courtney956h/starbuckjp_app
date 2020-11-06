@@ -269,15 +269,16 @@ body { font-family: 'Roboto'; }
 .product span { color: #c7c7c5; 
     font-weight: bold; 
     font-size: 12px; 
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    display: block; }
 .product_img { display: flex; 
     justify-content: space-between;
     align-items: center; }
 .product_img img { 
-    height: 33.33%; 
-    width: 33.33%;
-    padding: 20px 10px; 
-    border-radius: 50%; }
+    height: 90px; 
+    width: 90px;
+    border-radius: 50px; }
 .product .product_btn { padding-top: 20px; }
 .product .product_btn a { padding: 8px 15px; 
     font-size: 13px;
@@ -671,7 +672,7 @@ body { font-family: 'Roboto'; }
 
 
 
-/* 퀵메뉴 map.html */
+/* 세부 페이지 map.html */
 #content { position: relative;}
 #map_header { height: 90px;
     padding: 52px 0 10px;
@@ -704,7 +705,7 @@ body { font-family: 'Roboto'; }
 
 
 
-/* login.html */
+/* 세부 페이지 login.html */
 #login_header { height: 94px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
 #login_header.on { position: fixed; 
@@ -774,7 +775,7 @@ legend { display: none }
 
 
 
-/* joinPage1.html, joinPage2.html */
+/* 세부 페이지 joinPage1.html, joinPage2.html */
 .joinPageContent { background: #fcfcfc; }
 #join_header { height: 94px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
@@ -849,7 +850,7 @@ legend { display: none }
     transition: all 0.5s; }
 
 
-/* welcome.html */
+/* 세부 페이지 welcome.html */
 .welcomeContent { background: #1e3932; }
 #welcome_header { height: 94px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
@@ -921,7 +922,7 @@ legend { display: none }
 
 
 
-/* pay.html */
+/* 세부 페이지 pay.html */
 .payContent { background: #fff; }
 #pay_header { height: 94px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
