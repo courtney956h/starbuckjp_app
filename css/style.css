@@ -17,7 +17,7 @@ body { font-family: 'Roboto'; }
 #onlyMobile { position: fixed; 
     width: 100vw; 
     height: 100vw; 
-    top: 0; left: 0; 
+    top: 0;
     background:  #00af68;
     color: #fff;
     font-size: 20px; 
@@ -28,9 +28,8 @@ body { font-family: 'Roboto'; }
 #onlyMobile img { width: 300px; }
 
 @media screen and (max-width:768px) {
-    #onlyMobile { display: none;}
+    #onlyMobile { display: none; }
 }
-
 
 
 /* 헤더구역 고정시키기 */
@@ -765,12 +764,13 @@ legend { display: none }
 .login_btn { position: fixed; 
     bottom: 80px; right: 10px; 
     z-index: 9999999; }
-.login_btn a { padding: 15px 20px; 
+.login_btn button { padding: 15px 20px; 
     font-size: 18px;
     color: #fff;
     background: #999; 
     border-radius: 50px;
     cursor: pointer;
+    border: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
 
 
